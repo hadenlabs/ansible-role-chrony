@@ -23,7 +23,7 @@ ansible-role-chrony for hadenlabs.
 
 ## Requirements
 
-This is a list of applications that need to be installed previously to enjoy all the goodies of this configuration:
+This is a list of requirements that need to be installed previously to enjoy all the goodies of this configuration:
 
 - [gomplate](https://github.com/hairyhenderson/gomplate)
 - [python](https://www.python.org)
