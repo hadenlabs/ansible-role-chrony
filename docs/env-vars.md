@@ -1,8 +1,8 @@
-<!-- Space: AnsibleRoleTemplate -->
+<!-- Space: AnsibleRoleChrony -->
 <!-- Parent: Project -->
 <!-- Title: Env Vars -->
 
-<!-- Label: AnsibleRoleTemplate -->
+<!-- Label: AnsibleRoleChrony -->
 <!-- Label: Project -->
 <!-- Label: Env Vars -->
 <!-- Include: docs/disclaimer.md -->

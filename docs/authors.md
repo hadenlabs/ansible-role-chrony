@@ -1,8 +1,8 @@
-<!-- Space: AnsibleRoleTemplate -->
+<!-- Space: AnsibleRoleChrony -->
 <!-- Parent: Project -->
 <!-- Title: Project Authors -->
 
-<!-- Label: AnsibleRoleTemplate -->
+<!-- Label: AnsibleRoleChrony -->
 <!-- Label: Project -->
 <!-- Label: Authors -->
 <!-- Include: docs/disclaimer.md -->
