@@ -1,2 +1,9 @@
 ---
-- include_tasks: 'install.d/{{ansible_os_family | lower }}.yml'
+- name: 'Install Chrony'
+  become: yes
+  package:
+    name: 'chrony'
+    state: 'present'
+  tags:
+    - 'chrony-install'
+    - 'chrony'
