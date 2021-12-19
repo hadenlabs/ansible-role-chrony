@@ -1,4 +1,4 @@
- <!-- Space: AnsibleRoleTemplate -->
+ <!-- Space: AnsibleRoleChrony -->
 <!-- Title: Project -->
 
 <!--
@@ -15,11 +15,11 @@
 
   -->
 
-[![Latest Release](https://img.shields.io/github/release/hadenlabs/ansible-role-template)](https://github.com/hadenlabs/ansible-role-template/releases) [![Lint](https://img.shields.io/github/workflow/status/hadenlabs/ansible-role-template/lint-code)](https://github.com/hadenlabs/ansible-role-template/actions?workflow=lint-code) [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit) [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow)](https://conventionalcommits.org)
+[![Latest Release](https://img.shields.io/github/release/hadenlabs/ansible-role-chrony)](https://github.com/hadenlabs/ansible-role-chrony/releases) [![Lint](https://img.shields.io/github/workflow/status/hadenlabs/ansible-role-chrony/lint-code)](https://github.com/hadenlabs/ansible-role-chrony/actions?workflow=lint-code) [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit) [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow)](https://conventionalcommits.org)
 
-# ansible-role-template
+# ansible-role-chrony
 
-ansible-role-template for hadenlabs.
+ansible-role-chrony for hadenlabs.
 
 ## Requirements
 
@@ -32,17 +32,14 @@ This is a list of applications that need to be installed previously to enjoy all
 ## Usage
 
 ```bash
-  ansible-galaxy install hadenlabs.ansible-role-name
-  agr 'ansible-role-template' 'new-project'
-  agr 'AnsibleRoleTemplate' 'NewProject'
-  agr 'ansible-role-name' 'project'
+ansible-galaxy install hadenlabs.chrony
 ```
 
 Full working examples can be found in [examples](./examples) folder.
 
 ## Examples
 
-<!-- Space: AnsibleRoleTemplate -->
+<!-- Space: AnsibleRoleChrony -->
 <!-- Parent: Project -->
 <!-- Title: Project Examples -->
 
@@ -57,7 +54,7 @@ To run this playbook with default settings, create a basic playbook like this:
 ```{.yaml}
 - hosts: servers
   roles:
-    - hadenlabs.ansible-role-name
+    - hadenlabs.chrony
 ```
 
 ## Requirements
@@ -67,14 +64,14 @@ To run this playbook with default settings, create a basic playbook like this:
 The default role variables in `defaults/main.yml` are:
 
 ```{.yaml}
-# defaults file for ansible-role-template
+# defaults file for ansible-role-chrony
 ```
 
 ## Help
 
 **Got a question?**
 
-File a GitHub [issue](https://github.com/hadenlabs/ansible-role-template/issues).
+File a GitHub [issue](https://github.com/hadenlabs/ansible-role-chrony/issues).
 
 ## Contributing
 
@@ -107,6 +104,6 @@ All other trademarks referenced herein are the property of their respective owne
 
 The code and styles are licensed under the LGPL-3.0 license [See project license.](LICENSE).
 
-## Don't forget to 🌟 Star 🌟 the repo if you like ansible-role-template
+## Don't forget to 🌟 Star 🌟 the repo if you like ansible-role-chrony
 
-[Your feedback is appreciated](https://github.com/hadenlabs/ansible-role-template/issues)
+[Your feedback is appreciated](https://github.com/hadenlabs/ansible-role-chrony/issues)
