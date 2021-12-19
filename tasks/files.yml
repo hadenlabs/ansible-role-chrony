@@ -5,5 +5,5 @@
     path: '{{ item.path }}'
     state: '{{ item.state }}'
     owner: '{{ item.owner }}'
-  with_items: '{{ _chrony_create_files | default({}) }}'
-  when: _chrony_create_files is defined
+  with_items: '{{ chrony_create_files | default({}) }}'
+  when: chrony_create_files is defined
